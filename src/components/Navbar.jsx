@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { FaBars, FaTimes, FaLinkedin } from "react-icons/fa";
+import { FaBars, FaTimes, FaLinkedin, FaGithub } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 import { Link } from "react-scroll";
@@ -103,10 +103,10 @@ function Navbar() {
               Resume <BsFillPersonLinesFill size={30} />
             </a>
           </li>
-          <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#333333]'>
+          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#333333]">
             <a
-              className='flex justify-between items-center w-full text-gray-300'
-              href='https://github.com/SkyDev77777'
+              className="flex justify-between items-center w-full text-gray-300"
+              href="https://github.com/SkyDev77777"
             >
               Github <FaGithub size={30} />
             </a>
